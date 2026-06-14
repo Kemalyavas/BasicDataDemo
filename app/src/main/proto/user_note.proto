@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.example.basicdatademo";
+option java_multiple_files = true;
+
+message UserNote {
+    string note_text = 1;
+    int64 saved_at = 2;
+}
